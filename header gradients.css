@@ -4,18 +4,18 @@
 
 /** Colors **/
 :root .theme-light {
-    --h1-color: #0005A5;
-    --h1-gradient: var(--h1-color), #0005A5, #D858FF;
-    --h2-color: #0005A5;
-    --h2-gradient: var(--h2-color), #0005A5, #D858FF;
-    --h3-color: #0005A5;
-    --h3-gradient: var(--h3-color), #0005A5, #D858FF;
-    --h4-color: #0005A5;
-    --h4-gradient: var(--h4-color), #0005A5, #D858FF;
-    --h5-color: #0005A5;
-    --h5-gradient: var(--h5-color), #0005A5, #D858FF;
-    --h6-color: #0005A5;
-    --h6-gradient: var(--h6-color), #0005A5, #D858FF;
+    --h1-color: #C9A1FC;
+    --h1-gradient: var(--h1-color), #C9A1FC, #7CB9DE;
+    --h2-color: #C9A1FC;
+    --h2-gradient: var(--h2-color), #C9A1FC, #7CB9DE;
+    --h3-color: #C9A1FC;
+    --h3-gradient: var(--h3-color), #C9A1FC, #7CB9DE;
+    --h4-color: #C9A1FC;
+    --h4-gradient: var(--h4-color), #C9A1FC, #7CB9DE;
+    --h5-color: #C9A1FC;
+    --h5-gradient: var(--h5-color), #C9A1FC, #7CB9DE;
+    --h6-color: #C9A1FC;
+    --h6-gradient: var(--h6-color), #C9A1FC, #7CB9DE;
 }
 
 :root .theme-dark {
@@ -43,7 +43,7 @@
 /* Add text-clipped background gradients */
 .cm-header:not(.cm-formatting),
 :is(h1, h2, h3, h4, h5, h6) {
-    background:linear-gradient(to bottom right, #0005A5 0%, #D858FF 100%);
+    background:linear-gradient(to bottom right, #C9A1FC 0%, #7CB9DE 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: fit-content;
