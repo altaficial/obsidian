@@ -5,9 +5,9 @@
 /** Colors **/
 :root .theme-light {
     --h1-color: #C9A1FC;
-    --h1-gradient: var(--h1-color), #C9A1FC, #7CB9DE;
-    --h2-color: #C9A1FC;
-    --h2-gradient: var(--h2-color), #C9A1FC, #7CB9DE;
+    --h1-gradient: var(--h1-color), #C9A1FC 0%, #7CB9DE 100%;
+    --h2-color: #6BC2B8;
+    --h2-gradient: var(--h2-color), #6BC2B8 0%, #EED9B4 100%;
     --h3-color: #C9A1FC;
     --h3-gradient: var(--h3-color), #C9A1FC, #7CB9DE;
     --h4-color: #C9A1FC;
@@ -43,7 +43,7 @@
 /* Add text-clipped background gradients */
 .cm-header:not(.cm-formatting),
 :is(h1, h2, h3, h4, h5, h6) {
-    background:linear-gradient(to bottom right, #C9A1FC 0%, #7CB9DE 100%);
+    background:linear-gradient(to bottom right, var(--gradient-header));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: fit-content;
