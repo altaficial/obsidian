@@ -1,20 +1,14 @@
 :root .theme-light {
-    --h1-color: background: #0005A5; background: linear-gradient(to right, #0005A5 0%, #D858FF 100%);
-    --webkit-text-fill-color: transparent;
-  
-}
-
-:root .theme-dark {
-    --h1-color: #ef5350;
-    --h1-gradient: var(--h1-color), #e57373, #f06292;
+    --h1-color: #0005A5;
+    --h1-gradient: var(--h1-color), #0005A5, #D858FF;
     --h2-color: #ffa726;
-    --h2-gradient: var(--h2-color), #ffb74d, #ffcc80;
+    --h2-gradient: var(--h2-color), #ffd54f, #a5d6a7;
     --h3-color: #ffd54f;
-    --h3-gradient: var(--h3-color), #ffd54f, #ffe082;
+    --h3-gradient: var(--h3-color), #a5d6a7, #ffe082;
     --h4-color: #a5d6a7;
-    --h4-gradient: var(--h4-color), #aed581, #e6ee9c;
+    --h4-gradient: var(--h4-color), #aed581, #90caf9;
     --h5-color: #90caf9;
-    --h5-gradient: var(--h5-color), #80deea, #80cbc4;
+    --h5-gradient: var(--h5-color), #ce93d8, #ef5350;
     --h6-color: #ce93d8;
-    --h6-gradient: var(--h6-color), #b39ddb, #f8bbd0;
+    --h6-gradient: var(--h6-color), #ef5350, #ffa726;
 }
