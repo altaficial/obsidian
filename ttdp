@@ -4,7 +4,7 @@
   "Appearance-light@@accent-color-override-light": true,
   "Appearance-light@@background-underlying-select-light": "background-underlying-CSS-light",
   "Appearance-light@@background-underlying-light": "#FFFFFF",
-  "Appearance-light@@background-underlying-CSS-light": "url(\"https://media0.giphy.com/media/26BRvIYDe4ILO60Ni/giphy.gif?cid=ecf05e47f6xk3h6wxwjmb22keeypfj48yj1rsxipqussdskg&rid=giphy.gif&ct=g\") center center/cover no-repeat fixed",
+  "Appearance-light@@background-underlying-CSS-light": "url(\"https://github.com/zysyzygy/obsidian-theme/blob/786e9cc8c0af2b4589431243a28eaf8a7b8fea09/IMG_7654.PNG") center center/cover no-repeat fixed",
   "Appearance-light@@background-underlying-CSS-blend-mode-light": "none",
   "Appearance-light@@background-primary@@light": "#FFFFFF",
   "Appearance-light@@background-secondary@@light": "#FFFFFF",
