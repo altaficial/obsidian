@@ -1,0 +1,43 @@
+
+.canvas-node-container {
+    border-width: 0;
+    background: transparent;
+}
+.is-focused.canvas-node .canvas-node-container {
+    border-width: 1px;
+}
+.canvas-wrapper {
+  --shadow-stationary: none;
+}
+.canvas-node-container:has.custom h1 {
+    font-size: 300px;
+    
+}
+.canvas-node-container p {
+    font-size: 30px;
+
+}
+
+.canvas-node-container:has.custom li {
+    text-align-last: left;
+    font-size: 100px;
+}
+
+.canvas-node-container:has.custom div:nth-child(2) {
+    text-align: right;
+    font-size: 110px;
+}
+
+.canvas-node-container:has.custom .is-loaded div:nth-child(2) {
+  text-align: center;
+  font-size: 26px;
+}
+
+.canvas-node-container:has.custom .is-loaded h1 {
+    text-align: center;
+    font-size: 90px;
+  }
+
+.canvas-node-container .is-loaded h1 {
+    font-size: 35px;
+  }

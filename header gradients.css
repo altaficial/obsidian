@@ -4,33 +4,33 @@
 
 /** Colors **/
 :root .theme-light {
-    --h1-color: #C9A1FC;
-    --h1-gradient: var(--h1-color), #C9A1FC 0%, #7CB9DE 100%;
-    --h2-color: #6BC2B8;
-    --h2-gradient: var(--h2-color), #6BC2B8 0%, #EED9B4 100%;
-    --h3-color: #C9A1FC;
-    --h3-gradient: var(--h3-color), #C9A1FC, #7CB9DE;
-    --h4-color: #C9A1FC;
-    --h4-gradient: var(--h4-color), #C9A1FC, #7CB9DE;
-    --h5-color: #C9A1FC;
-    --h5-gradient: var(--h5-color), #C9A1FC, #7CB9DE;
-    --h6-color: #C9A1FC;
-    --h6-gradient: var(--h6-color), #C9A1FC, #7CB9DE;
+    --h1-color: #3D515E;
+    --h1-gradient: var(--h1-color),#3D515E 0%, #B1A8CE 50%;
+    --h2-color: #983839;
+    --h2-gradient: var(--h2-color),#983839 0%, #e1a37a 50%, #CB757F 100%;
+    --h3-color: #6D2A74;
+    --h3-gradient: var(--h3-color), #6D2A74 0%, #D07B75 50%, #AF87C4 100%;
+    --h4-color: #d382a2;
+    --h4-gradient: var(--h4-color), #d382a2 0%, #D3C3EF 50%, #7EB2E2 100%;
+    --h5-color: #34AAB6;
+    --h5-gradient: var(--h5-color), #34AAB6 0%, #eacf7d 50%, #BADAB9 100%;
+    --h6-color: #741385bb;
+    --h6-gradient: var(--h6-color), #741385bb 0%, #d3b096 50%, #D3A1A9 100%;
 }
 
 :root .theme-dark {
-    --h1-color: #ef5350;
-    --h1-gradient: var(--h1-color), #e57373, #f06292;
-    --h2-color: #ffa726;
-    --h2-gradient: var(--h2-color), #ffb74d, #ffcc80;
-    --h3-color: #ffd54f;
-    --h3-gradient: var(--h3-color), #ffd54f, #ffe082;
-    --h4-color: #a5d6a7;
-    --h4-gradient: var(--h4-color), #aed581, #e6ee9c;
-    --h5-color: #90caf9;
-    --h5-gradient: var(--h5-color), #80deea, #80cbc4;
-    --h6-color: #ce93d8;
-    --h6-gradient: var(--h6-color), #b39ddb, #f8bbd0;
+    --h1-color: #3D515E;
+    --h1-gradient: var(--h1-color),#3D515E 0%, #a9c3d4 50%, #B1A8CE 100%;
+    --h2-color: #983839;
+    --h2-gradient: var(--h2-color),#983839 0%, #e1a37a 50%, #CB757F 100%;
+    --h3-color: #6D2A74;
+    --h3-gradient: var(--h3-color), #6D2A74 0%, #D07B75 50%, #AF87C4 100%;
+    --h4-color: #d382a2;
+    --h4-gradient: var(--h4-color), #d382a2 0%, #D3C3EF 50%, #7EB2E2 100%;
+    --h5-color: #34AAB6;
+    --h5-gradient: var(--h5-color), #34AAB6 0%, #eacf7d 50%, #BADAB9 100%;
+    --h6-color: #741385bb;
+    --h6-gradient: var(--h6-color), #741385bb 0%, #d3b096 50%, #D3A1A9 100%;
 }
 
 /** Gradient Headers **/
@@ -43,7 +43,7 @@
 /* Add text-clipped background gradients */
 .cm-header:not(.cm-formatting),
 :is(h1, h2, h3, h4, h5, h6) {
-    background:linear-gradient(to bottom right, var(--gradient-header));
+    background:linear-gradient(to right, var(--gradient-header));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     width: fit-content;
@@ -78,4 +78,20 @@ h5 {
 .cm-header-6,
 h6 {
     --gradient-header: var(--h6-gradient);
+}
+
+body {
+    /* --inline-title-font: var(--h1-font); */
+    --h1-font: Merienda;
+    --h1-size: 50px;
+    --h2-font: Merienda;
+    --h2-size: 45px;
+    --h3-font: Merienda;
+    --h3-size: 40px;
+    --h4-font: Merienda;
+    --h4-size: 35px;
+    --h5-font: Merienda;
+    --h5-size: 30px;
+    --h6-font: Merienda;
+    --h6-size: 25px;
 }

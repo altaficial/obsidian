@@ -1,0 +1,15 @@
+.canvas-node-container {
+    border-radius: 6px;
+    border-width: 1px;
+    border-color: black;
+    background-color: transparent;
+     
+}
+.is-focused.canvas-node .canvas-node-container {
+    border-width: 0px;
+}
+.canvas-node-container p{
+    font-size: 15px;
+    word-spacing: 0rem;
+
+}
